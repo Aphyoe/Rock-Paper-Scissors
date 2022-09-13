@@ -50,3 +50,5 @@ elif player_choice == 2 and computer_choice == 1:
     print(f"{scissors}\n Computer chose:\n {paper}\n You win")
 elif player_choice == 2 and computer_choice == 2:
     print(f"{scissors}\n Computer chose:\n {scissors}\n It's a draw")
+else:
+  print("You typed an invalid number, you lose by default.")
